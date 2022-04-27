@@ -1,0 +1,172 @@
+.alarm{
+	font-family: Impact, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 50px;
+}
+
+#main-container{
+/*  margin-left: 10%;*/
+  position: relative;
+  height: 40vw;
+  width: 40vw;
+  background: url(./img/alarm.jpg) no-repeat;
+  background-position: 100%;
+  overflow: hidden;
+/*  border: 2px solid black;*/
+
+}
+
+#circle{
+	position: relative;
+    height: 2vw;
+    width: 2vw;
+    background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 55%;
+	margin-left: 47%;
+}
+
+#hour, #minute, #second{
+	position: absolute;
+    border-radius: 10px;
+    background-color: black;
+	display: inline-block;
+	transform-origin: bottom;
+}
+
+
+#hour{
+	position: absolute;
+	margin-top: 38.7%;
+	margin-left:-3.7%;
+	height: 7.7vw;
+    width: 1vw;
+   /* display: none;*/
+    opacity: 0.8;
+}
+
+
+#minute{
+	position: absolute;
+	margin-top: 35.5%;
+	margin-left:-3.6%;
+	height: 9vw;
+    width: 0.9vw;
+    opacity: 0.8;
+/*    display: none;*/
+}
+
+
+#second{
+	position: absolute;
+	margin-top: 33%;
+	margin-left:-3.5%;
+	height: 10vw;
+    width: 0.7vw;
+/*    display: none;*/
+    opacity: 0.8;
+}
+
+.illustration{
+	height: 40vw;
+	width: 20vw;
+/*	border: 2px solid black;*/
+/*	margin-left: 38%;*/
+}
+
+.main-img{
+	width: 30vw;
+	padding-left: 20px;
+	height: 30vw;
+}
+.head{
+	display: flex;
+}
+
+#tpick{
+	height: 18vw;
+	width: 30vw;
+/*	border: 2px solid black;*/
+	max-width: 350px;
+    padding: 10px;
+    /*background: #f2f2f2;*/
+    white-space: nowrap;
+    margin-top: 6%;
+/*	margin-left: 30%;*/
+}
+
+#tpick-h, #tpick-m, #tpick-s {
+  display: inline-block;
+  width: 32%;
+}
+#tpick select {
+  box-sizing: padding-box;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#tset, #treset {
+  box-sizing: padding-box;
+  width: 50%;
+  background: #3368b2;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+#tset:disabled, #treset:disabled {
+  background: #aaa;
+  color: #888;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+
+#ctime {
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 10px;
+  background:;
+  text-align: center;
+}
+#ctime .header {
+  color: #c61d1d;
+}
+#ctime .square {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+#ctime .digits {
+  font-size: 24px;
+  background: #000;
+  color: white;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+#ctime .text {
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

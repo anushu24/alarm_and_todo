@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+    <div id="main-container">
+    	<div id="circle"></div>
+    	<div id="hour"></div>
+    	<div id="minute"></div>
+    	<div id="second"></div>
+    </div>
+
+    <div id="tpick">
+        <h1 class="alarm">Alarm Clock</h1>
+        <div id="ctime">
+            <h1 class="header">THE CURRENT TIME</h1>
+            <div class="square">
+                <div class="digits" id="chr">00</div>
+                <div class="text">HR</div>
+            </div>
+            <div class="square">
+                <div class="digits" id="cmin">00</div>
+                <div class="text">MIN</div>
+            </div>
+            <div class="square">
+                <div class="digits" id="csec">00</div>
+                <div class="text">SEC</div>
+            </div>
+        </div>
+        <h1 class="header">SET ALARM</h1>
+        <div id="tpick-h"></div>
+        <div id="tpick-m"></div>
+        <div id="tpick-s"></div>
+        <div>
+            <input type="button" value="Set" id="tset"/>
+            <input type="button" value="Reset" id="treset" disabled/>
+        </div>
+    </div>
+
+    <!-- (C) ALARM SOUND -->
+    <audio id="alarm-sound" loop>
+      <source src="wake-up-sound.mp3" type="audio/mp3">
+    </audio>
+    <div class="illustration">
+        <img class="main-img" src="./img/illustration.jpg">
+    </div>
+   
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

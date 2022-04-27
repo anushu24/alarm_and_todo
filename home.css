@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: flex;
+	background: url(./img/.jpg) no-repeat;
+	background-size: 100%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.left, .right{
+	width: 50%;
+	height: 48vw;
+	text-align: center;
+	font-family: Impact, sans-serif;
+	font-size: 55px;
+	/*border: 2px solid black;*/
+}
+
+.alarm-clock, .todo{
+	padding-top: 250px;
+}
+
+
+.left:hover, .right:hover{
+	width: 50%;
+	height: 48vw;
+	text-align: center;
+	font-family: Impact, sans-serif;
+	font-size: 60px;
+	background-color: white;
+	opacity: 0.5;
+	
+}
+
